@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dorking Tool for Bug Bounty Hunters</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Engine For Bug Bounty Hunters</h1>
+        <div class="input-section">
+            <label for="target-domain">Target Domain:</label>
+            <input type="text" id="target-domain" placeholder="Enter Target Domain">
+        </div>
+        <div class="buttons-container">
+            <button onclick="runDork('site')">Directory Listing Vulnerabilities</button>
+            <button onclick="runDork('config')">Exposed Configuration Files</button>
+            <button onclick="runDork('db')">Exposed Database Files</button>
+            <button onclick="runDork('logs')">Exposed Log Files</button>
+            <button onclick="runDork('backup')">Backup and Old Files</button>
+            <button onclick="runDork('sql')">SQL Errors</button>
+            <button onclick="runDork('login')">Login Pages</button>
+            <!-- Add more buttons as needed -->
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
