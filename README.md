@@ -14,6 +14,7 @@
     <img src="https://img.shields.io/badge/Written%20In-JS-blue?style=flat-square"><br>
     <img src="https://img.shields.io/badge/Author-AaravShah-purple?style=flat-square">
 </p></body></html>
+
 # 📜 Description
 
 📝 Super Dorking Tool is an advanced web-based dorking tool created using HTML, CSS, and JavaScript. It allows users to perform Google and GitHub dorking efficiently through a simple and interactive web interface.
